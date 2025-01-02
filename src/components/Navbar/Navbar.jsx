@@ -38,7 +38,7 @@ function Navbar() {
   <div></div>
 </div>
 
-        <div className="logosecond" >
+        {/* <div className="logosecond" >
           <ul style={{ color: darkMode ? "white" : "" }}>
             <li><Link
               to="home"
@@ -86,7 +86,7 @@ function Navbar() {
               Testimonals
             </Link></li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="logothird">
           <div className="toggledark" onClick={toggleDarkMode}>
