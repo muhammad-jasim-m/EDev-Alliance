@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/muhammad-jasim-m/EDev-Alliance/static/css/main.19b6e629.css",
+    "main.js": "/muhammad-jasim-m/EDev-Alliance/static/js/main.35ff5d99.js",
+    "static/js/146.8e716713.chunk.js": "/muhammad-jasim-m/EDev-Alliance/static/js/146.8e716713.chunk.js",
+    "static/media/logo.svg": "/muhammad-jasim-m/EDev-Alliance/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/muhammad-jasim-m/EDev-Alliance/index.html",
+    "main.19b6e629.css.map": "/muhammad-jasim-m/EDev-Alliance/static/css/main.19b6e629.css.map",
+    "main.35ff5d99.js.map": "/muhammad-jasim-m/EDev-Alliance/static/js/main.35ff5d99.js.map",
+    "146.8e716713.chunk.js.map": "/muhammad-jasim-m/EDev-Alliance/static/js/146.8e716713.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19b6e629.css",
+    "static/js/main.35ff5d99.js"
+  ]
+}
