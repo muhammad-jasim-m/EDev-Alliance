@@ -38,14 +38,14 @@ function Navbar() {
   <div></div>
 </div>
 
-        {/* <div className="logosecond" >
+        <div className="logosecond" >
           <ul style={{ color: darkMode ? "white" : "" }}>
             <li><Link
               to="home"
               smooth={true}
               duration={500}
               spy={true}
-              onClick={handleLinkClick}
+              // onClick={handleLinkClick}
             >
               Home
             </Link> </li>
@@ -54,7 +54,7 @@ function Navbar() {
               smooth={true}
               duration={500}
               spy={true}
-              onClick={handleLinkClick}
+              // onClick={handleLinkClick}
             >
               About Us
             </Link> </li>
@@ -63,7 +63,7 @@ function Navbar() {
               smooth={true}
               duration={500}
               spy={true}
-              onClick={handleLinkClick}
+              // onClick={handleLinkClick}
             >
               Services
             </Link></li>
@@ -72,7 +72,7 @@ function Navbar() {
               smooth={true}
               duration={500}
               spy={true}
-              onClick={handleLinkClick}
+              // onClick={handleLinkClick}
             >
               Projets
             </Link></li>
@@ -81,12 +81,19 @@ function Navbar() {
               smooth={true}
               duration={500}
               spy={true}
-              onClick={handleLinkClick}
+              // onClick={handleLinkClick}
             >
               Testimonals
             </Link></li>
           </ul>
-        </div> */}
+          {/* <ul>
+            <li><Link to='home'>home</Link> </li>
+            <li>about</li>
+            <li>contace</li>
+            <li>services</li>
+            <li>why us</li>
+          </ul> */}
+        </div>
 
         <div className="logothird">
           <div className="toggledark" onClick={toggleDarkMode}>
