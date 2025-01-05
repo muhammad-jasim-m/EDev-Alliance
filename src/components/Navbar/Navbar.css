@@ -158,7 +158,8 @@ display: none;
         display: block;
     }
     .socialicons{
-        display: flex;
+        /* display: flex; */
+        display: block;
         justify-content: space-between;
         align-items: center;
         position: absolute;
