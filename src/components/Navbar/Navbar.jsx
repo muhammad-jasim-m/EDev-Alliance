@@ -33,9 +33,9 @@ function Navbar() {
 </div>
 
 <div className="socialicons">
-  <div>sf</div>
-  <div></div>
-  <div></div>
+  <div><Icon icon="ic:outline-whatsapp" width="24" height="24"  style={{color: "#fff"}} /></div>
+  <div><Icon icon="mdi:email" width="24" height="24"  style={{color: "#fff"}} /></div>
+  <div><Icon icon="mingcute:linkedin-fill" width="24" height="24"  style={{color: "#fff"}} /></div>
 </div>
 
         <div className="logosecond" >

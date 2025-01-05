@@ -171,7 +171,7 @@ display: none;
     .socialicons div{
         width: 40px;
         height: 40px;
-        background-color: green;
+        background-color: #636ae8;
         border-radius: 50%;
         display: flex;
         justify-content: center;
