@@ -1,4 +1,113 @@
 .threemain{
-    height: 100vh;
-    background: green;
+    height: auto;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-block: 40px;
+    padding-inline: 100px;
+}
+
+.threeheading{
+font-size: 30px;
+font-weight: 500;
+color: #636ae8;
+position: relative;
+text-align: center;
+}
+
+.threeheading::before{
+content: "";
+width: 190px;
+height: 2px;
+background-color: #333;
+position: absolute;
+bottom: 0px;
+/* right: 0px; */
+}
+
+.servicescard{
+display: flex;
+gap: 15px;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+}
+
+.servicecardmain{
+width: 340px;
+display: flex;
+border: 1px solid #636ae8;
+height: 330px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+border-radius: 12px;
+box-shadow: 0 0 10px 0 rgba(72, 71, 121, .2);
+}
+
+.servicecardmain:hover{
+    background-color: #636ae8;
+    position: relative;
+transition: 1s;
+transform: translatey(-5px);
+
+}
+
+.servicecardmain:hover .forjustifycenter div:nth-of-type(1) {
+    background-color: #17275e;
+transition: 1s;
+}
+
+.servicecardmain:hover .forjustifycenter div:nth-of-type(2){
+    color: #333;
+} 
+
+.forjustifycenter{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   align-items: center;
+    height: 272px;
+}
+
+.forjustifycenter div:nth-of-type(1){
+width: 50px;
+height: 50px;
+background-color: #636ae8;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+color: white;
+}
+
+.forjustifycenter div:nth-of-type(2){
+    font-size: 17px;
+    font-weight: 500;
+    color: #636ae8;
+}
+
+.forjustifycenter div:nth-of-type(3){
+    text-align: center;
+    color: #333;
+}
+
+@media(max-width:1024px){
+    .threemain{
+        padding-inline: 50px;
+    }
+}
+
+@media(max-width:768px){
+    .threemain{
+        padding-inline: 20px;
+    }
+}
+
+
+@media(max-width:430px){
+    .threemain{
+        padding-inline: 10px;
+    }
 }
