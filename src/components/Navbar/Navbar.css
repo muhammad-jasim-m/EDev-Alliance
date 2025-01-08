@@ -6,6 +6,9 @@ gap: 10px;
 height: 60px;
 width: 100%;
 padding-inline: 20px;
+z-index: 2;
+position: sticky;
+top: 0px;
 }
 .logofirst{
     display: flex;

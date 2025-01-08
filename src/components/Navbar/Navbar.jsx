@@ -20,7 +20,7 @@ function Navbar() {
   return (
     <>
 
-      <div className="maindivnav" style={{ background: darkMode ? "black" : "" }}>
+      <div className="maindivnav" style={{ background: darkMode ? "black" : "#fff" }}>
         <div className="logofirst">
           <img src={logo} alt="" />
           EDev Alliance
