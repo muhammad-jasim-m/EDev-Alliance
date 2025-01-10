@@ -1,11 +1,11 @@
 .stepsmaindiv{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     padding-block: 60px;
     padding-inline: 100px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
     align-items: center;
 }
 .stepheading{
@@ -31,14 +31,46 @@ text-align: center;
 }
 
 .stepsdivmain{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 25px;
+width: 100%;
 
 }
 
 .carddivmain{
-    
+    display: flex;
+    border: 1px solid #636ae8;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 15px;
+    width: 400px;
+    border-radius: 12px;
+}
+.carddivmain:hover{
+background-color: #636ae8;
+transition: 1s;
+transform: translateY(-10px);
+}
+.carddivmain:hover .topmain{
+    color: #333;
 }
 
-
+.topmain{
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 18px;
+font-weight: 600;
+color: #333;
+color: #636ae8;
+}
+.decraptionstcad{
+text-align: center;
+font-size: 14px;
+}
 
 @media(max-width:1024px){
     .stepsmaindiv{
@@ -65,4 +97,11 @@ text-align: center;
     .stepheading::before{
 width: 320px;
     }
+}
+
+
+@media(max-width:330px){
+    .stepheading::before{
+        display: none;
+            }
 }
