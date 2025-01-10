@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/EDev-Alliance/static/css/main.e5080a0c.css",
-    "main.js": "/EDev-Alliance/static/js/main.e584254a.js",
+    "main.css": "/EDev-Alliance/static/css/main.018287b4.css",
+    "main.js": "/EDev-Alliance/static/js/main.6efd4799.js",
     "static/js/146.8e716713.chunk.js": "/EDev-Alliance/static/js/146.8e716713.chunk.js",
+    "static/media/goldendream.png": "/EDev-Alliance/static/media/goldendream.515b44b047653902c418.png",
     "static/media/section2.png": "/EDev-Alliance/static/media/section2.c1cb2e52947c22db524c.png",
+    "static/media/mazen.png": "/EDev-Alliance/static/media/mazen.594fb83fa231b56841fd.png",
+    "static/media/p7.png": "/EDev-Alliance/static/media/p7.c41a5606e0ef74905ba4.png",
+    "static/media/moosa.png": "/EDev-Alliance/static/media/moosa.43e2ec0b7416c2388c38.png",
     "static/media/section1.png": "/EDev-Alliance/static/media/section1.609e973efd260d1353ef.png",
+    "static/media/p1.png": "/EDev-Alliance/static/media/p1.67e39586eab526cbbfce.png",
+    "static/media/leuito.png": "/EDev-Alliance/static/media/leuito.d9228d13e14407025439.png",
+    "static/media/Sign-Up.png": "/EDev-Alliance/static/media/Sign-Up.0eed04695c979179a9c1.png",
     "index.html": "/EDev-Alliance/index.html",
-    "main.e5080a0c.css.map": "/EDev-Alliance/static/css/main.e5080a0c.css.map",
-    "main.e584254a.js.map": "/EDev-Alliance/static/js/main.e584254a.js.map",
+    "main.018287b4.css.map": "/EDev-Alliance/static/css/main.018287b4.css.map",
+    "main.6efd4799.js.map": "/EDev-Alliance/static/js/main.6efd4799.js.map",
     "146.8e716713.chunk.js.map": "/EDev-Alliance/static/js/146.8e716713.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5080a0c.css",
-    "static/js/main.e584254a.js"
+    "static/css/main.018287b4.css",
+    "static/js/main.6efd4799.js"
   ]
 }
