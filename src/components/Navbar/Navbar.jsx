@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./Navbar.css";
 import logo from '../../Asserts/img/Image.png'
-import { Brightness4, Brightness7 } from "@mui/icons-material";
 import { Icon } from '@iconify/react'
 import { useDarkMode } from '../../Context/Darkcontext';
 import { Link } from 'react-scroll';
@@ -46,6 +45,7 @@ function Navbar() {
               duration={500}
               spy={true}
               onClick={handleLinkClick}
+              activeClass="active-link"
             >
               Home
             </Link> </li>
@@ -55,6 +55,7 @@ function Navbar() {
               duration={500}
               spy={true}
               onClick={handleLinkClick}
+              activeClass="active-link"
             >
               About Us
             </Link> </li>
@@ -64,6 +65,7 @@ function Navbar() {
               duration={500}
               spy={true}
               onClick={handleLinkClick}
+              activeClass="active-link"
             >
               Services
             </Link></li>
@@ -73,6 +75,7 @@ function Navbar() {
               duration={500}
               spy={true}
               onClick={handleLinkClick}
+              activeClass="active-link"
             >
               Projets
             </Link></li>
@@ -82,6 +85,7 @@ function Navbar() {
               duration={500}
               spy={true}
               onClick={handleLinkClick}
+              activeClass="active-link"
             >
               Testimonals
             </Link></li>
