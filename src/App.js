@@ -7,6 +7,7 @@ import Section3 from './components/section3/Section3';
 import Steps from './components/section04/Steps';
 import Section4 from './components/section004/Section4';
 import Section5 from './components/section5/Section5';
+import Form from './components/Form/Form';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
    <Steps/>
    <Section4/>
    <Section5/>
+   <Form/>
    </>
   );
 }

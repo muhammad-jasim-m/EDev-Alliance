@@ -22,7 +22,10 @@ function Section1() {
                           spy={true}
                          
                         >Explore Our Services </Link></div>
-            <div>Get a Free Quote</div></div>
+            <div><Link to='Formsec' smooth={true}
+                          duration={500}
+                          spy={true}
+               > Get a Free Quote </Link></div></div>
         </div>
         <div className="oneright">
 <img src={section1} alt="" />

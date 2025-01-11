@@ -1,4 +1,84 @@
-.fivemain{
+.t-wrapper{
+padding-block: 10px;
     height: 100vh;
-    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
 }
+.t-heading{
+    align-self: center;
+}
+.t-heading>*{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.t-heading span:nth-of-type(2){
+    color: #636ae8;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 370px;
+    height: 300px;
+    /* styles same as work.css */
+    /* background: rgba(255, 255, 255, 0.26); */
+    border: 3px solid #636ae8;
+    border-radius: 20px;
+}
+.testimonial>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.testimonial>span{
+    color: #333;
+    font-size: 14px;
+    padding-top: 1rem;
+}
+
+
+/* slider */
+.t-wrapper .swiper {
+    width: 100%;
+    height: 70%;
+}
+
+.t-wrapper .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonialslides .swiper-slide {
+    flex-shrink: 0;
+    width: 100% !important;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+  }
+
+
+.t-wrapper .swiper-pagination-bullet-active{
+    background: #636ae8;
+}
+
+@media screen and (max-width: 480px){
+    .t-wrapper{
+        padding: 0;
+        height: 130vh;
+    }
+    .testimonial>img{
+        width: 70px;
+        height: 70px;
+    }
+    .t-heading{
+text-align: center;
+    }
+  }

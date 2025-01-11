@@ -45,6 +45,7 @@ width: 100%;
     border: 1px solid #636ae8;
     flex-direction: column;
     gap: 25px;
+box-shadow: 0 0 10px 0 rgba(72, 71, 121, .2);
     padding: 25px 15px;
     width: 400px;
     border-radius: 12px;
