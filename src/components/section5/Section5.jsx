@@ -7,9 +7,13 @@ import { Pagination } from "swiper";
 import "swiper/css/pagination";
 // import profilePic2 from "../../img/my.jpg";
 import profilePic1 from "../../Asserts/img/ico.ico";
-
+import { useDarkMode } from "../../Context/Darkcontext";
 
 const Testimonial = () => {
+
+  const { darkMode } = useDarkMode();
+  
+
   const clients = [
     {
       img: profilePic1,
@@ -31,11 +35,11 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="t-wrapper" id="testimonial">
+    <div className="t-wrapper" id="testimonial" style={{ background: darkMode ? "black" : "" }}>
       <div className="t-heading">
-        <span>Clients always get </span>
+        <span style={{ color: darkMode ? "white" : "" }}>Clients always get </span>
         <span>Exceptional Work </span>
-        <span>from me.</span>
+        <span style={{ color: darkMode ? "white" : "" }}>from me.</span>
       </div>
       <Swiper id="testimonialslides"
         // install Swiper modules
@@ -50,7 +54,7 @@ const Testimonial = () => {
             <SwiperSlide key={index}>
               <div className="testimonial">
                 <img src={client.img} alt="" />
-                <span>{client.review}</span>
+                <span style={{ color: darkMode ? "white" : "" }}>{client.review}</span>
               </div>
             </SwiperSlide>
           );
