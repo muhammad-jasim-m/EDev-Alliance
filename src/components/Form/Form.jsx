@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Form.css";
+import { useDarkMode } from "../../Context/Darkcontext";
 
 const GetQuoteForm = () => {
   const [formData, setFormData] = useState({
@@ -12,6 +13,9 @@ const GetQuoteForm = () => {
   });
 
 const [popup, setPopup] = useState(false);
+
+const {darkMode} = useDarkMode();
+
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -47,7 +51,7 @@ const [popup, setPopup] = useState(false);
 
   return (
     <>
-    <div className="formmaindiv" id="Formsec">
+    <div className="formmaindiv" id="Formsec" style={{background :darkMode ?"black":""}}>
 
 <div className="hetquotate">
 Get a Free Quote
@@ -94,8 +98,11 @@ Get a Free Quote
 
 {
     popup && <>
-    <div className="popupdiv">
-    we have reciver you request we wil let you know
+    <div className="popupdiv" style={{background :darkMode ?"black":"", border:"1px solid #636ae8"}}>
+<div>
+we have reciver you request we will let you know in 24 Hours.
+</div>
+<div>icon</div> 
 </div>
     </>
 }
