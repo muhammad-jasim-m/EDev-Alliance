@@ -49,5 +49,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         text-align: center;
+        padding-inline: 10px;
     }
 }
