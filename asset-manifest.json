@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EDev-Alliance/static/css/main.ace84b78.css",
-    "main.js": "/EDev-Alliance/static/js/main.5cb7cc1c.js",
+    "main.js": "/EDev-Alliance/static/js/main.127eed52.js",
     "static/js/146.8e716713.chunk.js": "/EDev-Alliance/static/js/146.8e716713.chunk.js",
     "static/media/goldendream.png": "/EDev-Alliance/static/media/goldendream.515b44b047653902c418.png",
     "static/media/section2.png": "/EDev-Alliance/static/media/section2.c1cb2e52947c22db524c.png",
@@ -15,11 +15,11 @@
     "static/media/Sign-Up.png": "/EDev-Alliance/static/media/Sign-Up.0eed04695c979179a9c1.png",
     "index.html": "/EDev-Alliance/index.html",
     "main.ace84b78.css.map": "/EDev-Alliance/static/css/main.ace84b78.css.map",
-    "main.5cb7cc1c.js.map": "/EDev-Alliance/static/js/main.5cb7cc1c.js.map",
+    "main.127eed52.js.map": "/EDev-Alliance/static/js/main.127eed52.js.map",
     "146.8e716713.chunk.js.map": "/EDev-Alliance/static/js/146.8e716713.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ace84b78.css",
-    "static/js/main.5cb7cc1c.js"
+    "static/js/main.127eed52.js"
   ]
 }
