@@ -24,7 +24,7 @@ At E-Dev Alliance, we specialize in crafting cutting-edge websites, eye-catching
 </div>
 
 <div className="socialiconsfooter">
-            <div> <a href="https://wa.me/+92310971335" target='_blank'> <Icon icon="ic:outline-whatsapp" width="24" height="24" style={{ color: "#fff" }} /> </a>  </div>
+            <div> <a href="https://wa.me/92310971335" target='_blank'> <Icon icon="ic:outline-whatsapp" width="24" height="24" style={{ color: "#fff" }} /> </a>  </div>
             <div><a href="mailto:jasimdiv200@gmail.com" target='_blank'>
               <Icon icon="mdi:email" width="24" height="24" style={{ color: "#fff" }} /> </a></div>
             <div><a href="https://www.linkedin.com/in/mjasimm" target='_blank'>
