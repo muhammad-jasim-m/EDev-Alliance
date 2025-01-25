@@ -27,6 +27,12 @@
     cursor: pointer;
 }
 
+.socialiconsfooter div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .decfooter{
     text-align: center;
     padding-inline: 140px;
